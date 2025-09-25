@@ -5,7 +5,6 @@ import br.com.vendas.api.domain.repository.ClienteRepository;
 import br.com.vendas.api.exception.ClienteNotFoundException;
 import br.com.vendas.api.exception.RegraDeNegocioException;
 import br.com.vendas.api.service.ClienteService;
-import java.time.LocalDateTime;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
