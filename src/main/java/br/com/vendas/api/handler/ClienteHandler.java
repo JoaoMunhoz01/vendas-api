@@ -42,6 +42,7 @@ public class ClienteHandler {
   public void ativar(Long id) {
     clienteService.ativar(id);
   }
+
   public void desativar(Long id) {
     clienteService.desativar(id);
   }

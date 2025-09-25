@@ -7,7 +7,6 @@ import br.com.vendas.api.mapper.ItemMapper;
 import br.com.vendas.api.service.ItemService;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -51,8 +50,6 @@ public class ItemHandler {
   public void desativar(Long id) {
     itemService.desativar(id);
   }
-
-
 
 
 }
