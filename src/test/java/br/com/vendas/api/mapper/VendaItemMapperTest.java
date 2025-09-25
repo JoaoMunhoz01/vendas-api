@@ -1,17 +1,18 @@
 package br.com.vendas.api.mapper;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+
 import br.com.vendas.api.controller.dto.request.VendaItemRequestDTO;
 import br.com.vendas.api.controller.dto.response.VendaItemResponseDTO;
 import br.com.vendas.api.domain.Item;
 import br.com.vendas.api.domain.VendaItem;
+import java.math.BigDecimal;
+import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import java.math.BigDecimal;
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class VendaItemMapperTest {
